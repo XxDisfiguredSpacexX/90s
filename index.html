@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Awesome '90s Website!</title>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-image: url('https://web.archive.org/web/19990117032727im_/http://www.geocities.com/Heartland/Hills/7666/stars.gif');
+            color: #FFFF00;
+            font-family: "Comic Sans MS", "Times New Roman", serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .page-container {
+            width: 760px;
+            margin: 0 auto;
+            background-color: #000080;
+            border: 5px solid #FF00FF;
+            padding: 10px;
+        }
+        
+        header {
+            text-align: center;
+        }
+        
+        h1 {
+            color: #FF0000;
+            text-align: center;
+            font-size: 36px;
+            text-shadow: 2px 2px #00FF00;
+        }
+        
+        h2 {
+            color: #00FFFF;
+            font-size: 24px;
+            text-decoration: underline;
+        }
+        
+        .navigation {
+            background-color: #C0C0C0;
+            border: 3px outset #FFFFFF;
+            padding: 5px;
+            margin: 10px 0;
+            text-align: center;
+        }
+        
+        .navigation a {
+            padding: 2px 5px;
+            color: #0000FF;
+            background-color: #FFFFFF;
+            border: 2px outset #808080;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 5px;
+        }
+        
+        .navigation a:hover {
+            border-style: inset;
+        }
+        
+        .content {
+            background-color: #000080;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .sidebar {
+            float: right;
+            width: 200px;
+            background-color: #800080;
+            border: 3px ridge #FFFF00;
+            padding: 10px;
+            margin-left: 10px;
+        }
+        
+        .guestbook {
+            background-color: #008080;
+            padding: 10px;
+            border: 2px solid #FFFFFF;
+            margin-top: 10px;
+        }
+        
+        .counter {
+            text-align: center;
+            margin: 15px 0;
+            font-weight: bold;
+            color: #FFFFFF;
+        }
+        
+        footer {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+            border-top: 1px solid #FFFFFF;
+            padding-top: 10px;
+        }
+        
+        .blink {
+            animation: blinker 1s linear infinite;
+        }
+        
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+        
+        .construction {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        table.links {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        table.links td {
+            padding: 5px;
+            border: 1px solid #FFFFFF;
+            text-align: center;
+        }
+        
+        .hit-counter {
+            background-color: #000000;
+            color: #00FF00;
+            font-family: "Courier New", monospace;
+            padding: 5px;
+            border: 2px inset #808080;
+            display: inline-block;
+            letter-spacing: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <header>
+            <h1>Welcome to My Awesome '90s Website!</h1>
+            <marquee scrollamount="5" behavior="alternate">
+                <font color="#FF0000">W</font><font color="#FF7F00">e</font><font color="#FFFF00">l</font><font color="#00FF00">c</font><font color="#0000FF">o</font><font color="#4B0082">m</font><font color="#9400D3">e</font>
+                to my awesome homepage! Last updated: April 8, 2025
+            </marquee>
+        </header>
+
+        <div class="navigation">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT ME</a>
+            <a href="links.html">COOL LINKS</a>
+            <a href="photos.html">MY PHOTOS</a>
+            <a href="guestbook.html">GUESTBOOK</a>
+        </div>
+
+        <div class="construction">
+            <img src="https://web.archive.org/web/19990117010430im_/http://www.geocities.com/Heartland/Pointe/9231/construction.gif" alt="Under Construction">
+            <p class="blink">Some sections of this site are still under construction!</p>
+        </div>
+
+        <div class="content">
+            <div class="sidebar">
+                <h2>About Me</h2>
+                <img src="https://web.archive.org/web/20091027005903im_/http://geocities.com/Area51/Corridor/5177/aline1.gif" width="150" alt="Alien Gif">
+                <p>Hi! I'm [Your Name]! I love computers, sci-fi movies, and creating websites!</p>
+                <p class="blink">Check back often for updates!</p>
+                
+                <div class="counter">
+                    <p>You are visitor #:</p>
+                    <div class="hit-counter">00001337</div>
+                </div>
+            </div>
+
+            <h2>Welcome to my Homepage!</h2>
+            <p>Hello, fellow web surfers! Thanks for stopping by my little corner of the World Wide Web!</p>
+            <p>This site is best viewed in 800x600 resolution with Netscape Navigator or Internet Explorer 4.0+</p>
+            
+            <h2>What's New?</h2>
+            <blink>Updated on 04/08/25!</blink>
+            <ul>
+                <li>Added new GIFs to my collection</li>
+                <li>Fixed some broken links</li>
+                <li>Added a guestbook - please sign!</li>
+            </ul>
+
+            <h2>My Favorite Links</h2>
+            <table class="links">
+                <tr>
+                    <td><a href="#">My Friend's Cool Page</a></td>
+                    <td><a href="#">Awesome GIF Collection</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#">Free Web Hosting!</a></td>
+                    <td><a href="#">The Best Webring</a></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="guestbook">
+            <h2>Sign My Guestbook!</h2>
+            <form>
+                <p>Name: <input type="text" size="30"></p>
+                <p>Email: <input type="text" size="30"></p>
+                <p>Comments:<br>
+                <textarea rows="4" cols="50"></textarea></p>
+                <p><input type="button" value="Sign Guestbook!"></p>
+            </form>
+        </div>
+
+        <footer>
+            <p>This page is proudly hosted on [Your Hosting Provider]</p>
+            <p>Email me at: webmaster@your90ssite.com</p>
+            <p>©2025 My Awesome '90s Website - All Rights Reserved</p>
+            <p>
+                <img src="https://web.archive.org/web/20091027061524im_/http://hk.geocities.com/changck_hk/ie_logo.gif" width="88" height="31" alt="Best Viewed with Internet Explorer">
+                <img src="https://web.archive.org/web/20091026234530im_/http://www.geocities.com/Hollywood/Hills/8521/valid-html40.gif" width="88" height="31" alt="Valid HTML 4.0">
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
